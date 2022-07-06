@@ -1,19 +1,4 @@
 ## PAGE -> 179
-# Printing a Table of Contents
-"""
-tableOfContents = {"Introduction":1, "Part 1: Introducing AI":5, "CHAPTER 1: Introducing AI":5,
-"CHAPTER 2: Defining the Role of Data":21, "CHAPTER 3: Considering the Use of Algorithms":39,
-"CHAPTER 4: Pioneering Specialized Hardware":155}
-
-def printContents(dictData, leftWidth, rightWidth):
-    for k,v in dictData.items():
-        if k.lower().startswith("part"):
-            print("")
-        print(k.ljust(leftWidth, ".") + str(v).rjust(rightWidth))
-
-printContents(tableOfContents, 50, 3)
-"""
-######################################################################
 # Adding Bullets to Wiki Markup
 """
 
