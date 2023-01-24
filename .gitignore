@@ -128,5 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# credentials.json file for gmail api
+# gmail api authentication files
 credentials.json
+token.json
+
+twilio.json
